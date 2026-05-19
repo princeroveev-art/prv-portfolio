@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PRV — Web3 Content Creator</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -27,9 +30,9 @@
     <!-- HERO -->
     <section id="hero">
       <div class="hero-left">
-        <span class="hero-tag">PRV · Web3</span>
-        <h1>HEY, I'M <span class="blue">PRV</span></h1>
-        <h2 class="typing-wrapper">I'M A <span id="typing" class="blue"></span><span class="cursor">|</span></h2>
+        <span class="hero-tag">PRV &middot; Web3</span>
+        <h1>HEY, I'M <span class="accent">PRV</span></h1>
+        <h2 class="typing-wrapper">I'M A <span id="typing" class="accent"></span><span class="cursor">|</span></h2>
         <p>Creating content, building tools, and living in the Web3 space since 2022. From Solana threads to DeFi scripts — I do it all.</p>
         <div class="hero-btns">
           <a href="#works" class="btn-primary">View Works</a>
@@ -45,22 +48,10 @@
 
     <!-- STATS -->
     <div class="stats-bar">
-      <div class="stat">
-        <span class="stat-num">3+</span>
-        <p>Years in Web3</p>
-      </div>
-      <div class="stat">
-        <span class="stat-num">20+</span>
-        <p>Threads Written</p>
-      </div>
-      <div class="stat">
-        <span class="stat-num">5+</span>
-        <p>Bounties Won</p>
-      </div>
-      <div class="stat">
-        <span class="stat-num">1</span>
-        <p>Dapp Launched</p>
-      </div>
+      <div class="stat"><span class="stat-num">3+</span><p>Years in Web3</p></div>
+      <div class="stat"><span class="stat-num">20+</span><p>Threads Written</p></div>
+      <div class="stat"><span class="stat-num">5+</span><p>Bounties Won</p></div>
+      <div class="stat"><span class="stat-num">1</span><p>Dapp Launched</p></div>
     </div>
 
     <!-- ABOUT -->
@@ -69,75 +60,82 @@
         <img src="prvpfp.png" alt="PRV">
       </div>
       <div class="about-text">
-        <p class="section-tag">About Me</p>
-        <h2>I AM AVAILABLE FOR <span class="blue">WEB3 CONTENT & VIBE CODING</span></h2>
+        <span class="eyebrow">About Me</span>
+        <h2>AVAILABLE FOR <span class="accent">WEB3 CONTENT</span> &amp; VIBE CODING</h2>
         <p>Started in the Solana NFT space in 2022 and never looked back. I create X threads, Discord announcements, video scripts, and build small Web3 tools. Currently active in ecosystems like Solana, Ritual, and DeFi.</p>
-        <div class="about-stats">
-          <div><span>Ritual</span><p>Latest Ecosystem</p></div>
-          <div><span>Colosseum</span><p>Leaderboard</p></div>
+        <div class="about-chips">
+          <span class="chip">Ritual Ecosystem</span>
+          <span class="chip">Colosseum Leaderboard</span>
+          <span class="chip">Solana</span>
+          <span class="chip">DeFi</span>
         </div>
       </div>
     </section>
 
     <!-- SERVICES -->
     <section id="services">
-      <p class="section-tag" style="text-align:center;">What I Provide</p>
-      <h2 class="section-title-big">MY SERVICES</h2>
+      <span class="eyebrow" style="display:block;text-align:center;">What I Provide</span>
+      <h2 class="section-heading" style="text-align:center;">MY SERVICES</h2>
       <div class="services-grid">
+
         <div class="service-card">
-          <span class="service-icon">✍️</span>
+          <div class="service-icon-wrap">
+            <!-- pen/writing icon -->
+            <svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
           <h3>Content Writing</h3>
           <p>X threads, articles, copy writing — crafted for Web3 communities.</p>
         </div>
+
         <div class="service-card">
-          <span class="service-icon">⚡</span>
+          <div class="service-icon-wrap">
+            <!-- terminal/code icon -->
+            <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
           <h3>Vibe Coding</h3>
           <p>Building small Web3 tools and dapps fast — from idea to deployed in days.</p>
         </div>
+
         <div class="service-card">
-          <span class="service-icon">🌐</span>
+          <div class="service-icon-wrap">
+            <!-- users/community icon -->
+            <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
           <h3>Community Growth</h3>
           <p>Bounty campaigns, quest content, and engagement strategies for Web3 projects.</p>
         </div>
+
         <div class="service-card">
-          <span class="service-icon">🔍</span>
+          <div class="service-icon-wrap">
+            <!-- search/research icon -->
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
           <h3>Web3 Research</h3>
           <p>Deep dives into DeFi protocols, ETH/Solana ecosystem, and emerging crypto narratives.</p>
         </div>
+
       </div>
     </section>
 
     <!-- SKILLS -->
     <section id="skills-bar">
-      <p class="section-tag" style="text-align:center;">My Skills</p>
-      <h2 class="section-title-big">WHAT I'M GOOD AT</h2>
+      <span class="eyebrow" style="display:block;text-align:center;">My Skills</span>
+      <h2 class="section-heading" style="text-align:center;">WHAT I'M GOOD AT</h2>
       <div class="skills-wrap">
         <div class="skill">
-          <div class="skill-label">
-            <span>Content Creation</span>
-            <span>90%</span>
-          </div>
+          <div class="skill-label"><span>Content Creation</span><span>90%</span></div>
           <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
         </div>
         <div class="skill">
-          <div class="skill-label">
-            <span>Solana / DeFi</span>
-            <span>80%</span>
-          </div>
+          <div class="skill-label"><span>Solana / DeFi</span><span>80%</span></div>
           <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
         </div>
         <div class="skill">
-          <div class="skill-label">
-            <span>X Threads / Writing</span>
-            <span>85%</span>
-          </div>
+          <div class="skill-label"><span>X Threads / Writing</span><span>85%</span></div>
           <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
         </div>
         <div class="skill">
-          <div class="skill-label">
-            <span>Vibe Coding</span>
-            <span>70%</span>
-          </div>
+          <div class="skill-label"><span>Vibe Coding</span><span>70%</span></div>
           <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
         </div>
       </div>
@@ -145,47 +143,67 @@
 
     <!-- WORKS -->
     <section id="works">
-      <p class="section-tag" style="text-align:center;">My Work</p>
-      <h2 class="section-title-big">RECENT PROJECTS</h2>
+      <span class="eyebrow" style="display:block;text-align:center;">My Work</span>
+      <h2 class="section-heading" style="text-align:center;">RECENT PROJECTS</h2>
       <div class="works-grid">
 
         <div class="work-card">
-          <div class="work-thumb">🛠️</div>
+          <div class="work-icon-wrap">
+            <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
           <div class="work-info">
             <span class="work-tag">Dapp</span>
             <h3>Ritual Tip Feed</h3>
             <p>Tip Ritual Chain builders, mint thank-you cards, request testnet gas — built on Ritual Testnet.</p>
-            <a href="https://ritualtipfeed.lovable.app/" target="_blank">Visit Site →</a>
+            <a href="https://ritualtipfeed.lovable.app/" target="_blank" class="work-link">
+              Visit Site
+              <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
           </div>
         </div>
 
         <div class="work-card">
-          <div class="work-thumb">🏆</div>
+          <div class="work-icon-wrap">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
           <div class="work-info">
             <span class="work-tag">Bounty · $100 Won</span>
             <h3>ManicTrade Benchmark</h3>
             <p>Won $100 bounty for benchmark content about ManicTrade — sports trading platform on Solana.</p>
-            <a href="https://x.com/prv04_/status/2051133000025587836" target="_blank">See Thread →</a>
+            <a href="https://x.com/prv04_/status/2051133000025587836" target="_blank" class="work-link">
+              See Thread
+              <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
           </div>
         </div>
 
         <div class="work-card">
-          <div class="work-thumb">🔒</div>
+          <div class="work-icon-wrap">
+            <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
           <div class="work-info">
             <span class="work-tag">Security</span>
             <h3>VaultMind Perfect Score</h3>
             <p>Submitted Ritual Tip Feed to VaultMind security scan — achieved perfect security score on Colosseum leaderboard.</p>
-            <a href="https://x.com/prv04_" target="_blank">See Post →</a>
+            <a href="https://x.com/prv04_" target="_blank" class="work-link">
+              See Post
+              <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
           </div>
         </div>
 
         <div class="work-card">
-          <div class="work-thumb">📖</div>
+          <div class="work-icon-wrap">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
           <div class="work-info">
             <span class="work-tag">Article</span>
             <h3>Ritual Docs Deep Dive</h3>
             <p>Comprehensive article covering Ritual ecosystem — compiling all content work into one reference piece.</p>
-            <a href="https://x.com/prv04_/status/2023288442277519628" target="_blank">Read Article →</a>
+            <a href="https://x.com/prv04_/status/2023288442277519628" target="_blank" class="work-link">
+              Read Article
+              <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
           </div>
         </div>
 
@@ -195,8 +213,8 @@
     <!-- CONTACT -->
     <section id="contact">
       <div class="contact-left">
-        <p class="section-tag">Get In Touch</p>
-        <h2>LET'S <span class="blue">WORK</span><br>TOGETHER</h2>
+        <span class="eyebrow">Get In Touch</span>
+        <h2>LET'S <span class="accent">WORK</span><br>TOGETHER</h2>
         <p>Open for content collaborations, bounty campaigns, and Web3 projects.</p>
       </div>
       <div class="contact-right">
@@ -217,20 +235,23 @@
       </div>
     </section>
 
+    <footer>PRV &copy; 2025 &nbsp;&middot;&nbsp; Web3 Content Creator</footer>
+
   </div>
 
   <script>
+    /* Particles */
     const canvas = document.getElementById('particles');
     const ctx = canvas.getContext('2d');
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-    const dots = Array.from({length: 60}, () => ({
+    function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+    resize();
+    const dots = Array.from({length: 55}, () => ({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
-      r: Math.random() * 1.2 + 0.3,
-      dx: (Math.random() - 0.5) * 0.3,
-      dy: (Math.random() - 0.5) * 0.3,
-      o: Math.random() * 0.15 + 0.05
+      r: Math.random() * 1.0 + 0.3,
+      dx: (Math.random() - 0.5) * 0.25,
+      dy: (Math.random() - 0.5) * 0.25,
+      o: Math.random() * 0.12 + 0.04
     }));
     function drawParticles() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -246,24 +267,22 @@
       requestAnimationFrame(drawParticles);
     }
     drawParticles();
-    window.addEventListener('resize', () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    });
+    window.addEventListener('resize', resize);
 
+    /* Typing */
     const words = ['CONTENT CREATOR', 'VIBE CODER', 'WEB3 BUILDER', 'THREAD WRITER'];
     let wi = 0, ci = 0, deleting = false;
     const el = document.getElementById('typing');
     function type() {
       const word = words[wi];
       el.textContent = deleting ? word.slice(0, ci--) : word.slice(0, ci++);
-      if (!deleting && ci > word.length) { deleting = true; setTimeout(type, 1200); return; }
+      if (!deleting && ci > word.length) { deleting = true; setTimeout(type, 1300); return; }
       if (deleting && ci < 0) { deleting = false; wi = (wi + 1) % words.length; }
-      setTimeout(type, deleting ? 60 : 100);
+      setTimeout(type, deleting ? 55 : 95);
     }
     type();
 
-    const sections = document.querySelectorAll('section, .stats-bar');
+    /* Scroll reveal */
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -271,25 +290,26 @@
           entry.target.style.transform = 'translateY(0)';
         }
       });
-    }, { threshold: 0.1 });
-    sections.forEach(s => {
+    }, { threshold: 0.08 });
+    document.querySelectorAll('section, .stats-bar').forEach(s => {
       s.style.opacity = '0';
-      s.style.transform = 'translateY(20px)';
-      s.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      s.style.transform = 'translateY(22px)';
+      s.style.transition = 'opacity 0.55s ease, transform 0.55s ease';
       observer.observe(s);
     });
 
+    /* Card tilt */
     document.querySelectorAll('.work-card, .service-card').forEach(card => {
       card.addEventListener('mousemove', (e) => {
         const rect = card.getBoundingClientRect();
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
-        const rx = ((y - rect.height/2) / rect.height) * -8;
-        const ry = ((x - rect.width/2) / rect.width) * 8;
-        card.style.transform = `perspective(600px) rotateX(${rx}deg) rotateY(${ry}deg) scale(1.02)`;
+        const rx = ((y - rect.height / 2) / rect.height) * -6;
+        const ry = ((x - rect.width / 2) / rect.width) * 6;
+        card.style.transform = `perspective(700px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-3px)`;
       });
       card.addEventListener('mouseleave', () => {
-        card.style.transform = 'perspective(600px) rotateX(0) rotateY(0) scale(1)';
+        card.style.transform = 'perspective(700px) rotateX(0) rotateY(0) translateY(0)';
       });
     });
   </script>
