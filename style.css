@@ -194,6 +194,17 @@
       padding: 5rem 4rem;
     }
 
+     #hero {
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+      align-items: center;
+      min-height: 90vh;
+     gap: 3rem;
+     padding: 5rem 8rem;
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
     .hero-tag {
       display: inline-flex;
       align-items: center;
@@ -674,12 +685,16 @@
     /* ============================================================
        RESPONSIVE
     ============================================================ */
-    @media (max-width: 1024px) {
-      section { padding: 4rem 2rem; }
-      nav { padding: 1rem 2rem; }
-      #hero { padding: 3rem 2rem; }
-      .pfp-container { width: 280px; height: 280px; }
-    }
+  @media (max-width: 1024px) {
+  section { padding: 4rem 2rem; }
+  nav { padding: 1rem 2rem; }
+  #hero { 
+    padding: 3rem 2rem;
+    max-width: 100%;
+  }
+  .pfp-container { width: 280px; height: 280px; }
+}
+    
 
     @media (max-width: 768px) {
       nav { flex-wrap: wrap; gap: 0.6rem; padding: 0.9rem 1.25rem; }
@@ -693,6 +708,7 @@
         padding: 2.5rem 1.25rem;
         min-height: unset;
         gap: 2rem;
+        max-width: 100%;
       }
       .hero-right { order: -1; }
       .hero-left > p { margin: 0.75rem auto 0; }
